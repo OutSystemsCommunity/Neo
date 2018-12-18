@@ -1,0 +1,13 @@
+﻿<Properties StartupConfiguration="{A5510E0F-EAB5-495E-B644-C9C931679B9F}|Default">
+  <MonoDevelop.Ide.ItemProperties.XamarinTabs.UITests FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.XamarinTabs.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B8F488B7-FBFD-4831-8575-5A705CE480CF" />
+  <MonoDevelop.Ide.ItemProperties.XamarinTabs FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.ItemProperties.XamarinTabs.Android FirstBuild="True" PreferredExecutionTarget="Android.ZX1G226J28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

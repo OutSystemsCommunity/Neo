@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{042D5B46-9450-4CA6-8ED7-02E724EB3D84}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamMasterDetail/Views/MainPage.xaml.cs">
+    <Files>
+      <File FileName="XamMasterDetail/Views/MainPage.xaml.cs" Line="11" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.XamMasterDetail.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B8F488B7-FBFD-4831-8575-5A705CE480CF" />
+  <MonoDevelop.Ide.ItemProperties.XamMasterDetail.Android PreferredExecutionTarget="Android.ZX1G226J28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
