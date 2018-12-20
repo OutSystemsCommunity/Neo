@@ -766,11 +766,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dstrube/Projects/gaq/local/XamMasterDetail/XamMasterDetail.iOS/XamMasterDetail.iOS.csproj",
+      "projectUniqueName": "/Users/dstrube/Projects/gaq/githubForNonprofits/XamMasterDetail/XamMasterDetail.iOS/XamMasterDetail.iOS.csproj",
       "projectName": "XamMasterDetail.iOS",
-      "projectPath": "/Users/dstrube/Projects/gaq/local/XamMasterDetail/XamMasterDetail.iOS/XamMasterDetail.iOS.csproj",
+      "projectPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/XamMasterDetail/XamMasterDetail.iOS/XamMasterDetail.iOS.csproj",
       "packagesPath": "/Users/dstrube/.nuget/packages/",
-      "outputPath": "/Users/dstrube/Projects/gaq/local/XamMasterDetail/XamMasterDetail.iOS/obj",
+      "outputPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/XamMasterDetail/XamMasterDetail.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dstrube/.config/NuGet/NuGet.Config"
@@ -785,8 +785,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/dstrube/Projects/gaq/local/XamMasterDetail/XamMasterDetail/XamMasterDetail.csproj": {
-              "projectPath": "/Users/dstrube/Projects/gaq/local/XamMasterDetail/XamMasterDetail/XamMasterDetail.csproj"
+            "/Users/dstrube/Projects/gaq/githubForNonprofits/XamMasterDetail/XamMasterDetail/XamMasterDetail.csproj": {
+              "projectPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/XamMasterDetail/XamMasterDetail/XamMasterDetail.csproj"
             }
           }
         }

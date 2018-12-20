@@ -126,11 +126,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dstrube/Projects/gaq/local/XamMasterDetail/XamMasterDetail.UITests/XamMasterDetail.UITests.csproj",
+      "projectUniqueName": "/Users/dstrube/Projects/gaq/githubForNonprofits/XamMasterDetail/XamMasterDetail.UITests/XamMasterDetail.UITests.csproj",
       "projectName": "XamMasterDetail.UITests",
-      "projectPath": "/Users/dstrube/Projects/gaq/local/XamMasterDetail/XamMasterDetail.UITests/XamMasterDetail.UITests.csproj",
+      "projectPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/XamMasterDetail/XamMasterDetail.UITests/XamMasterDetail.UITests.csproj",
       "packagesPath": "/Users/dstrube/.nuget/packages/",
-      "outputPath": "/Users/dstrube/Projects/gaq/local/XamMasterDetail/XamMasterDetail.UITests/obj",
+      "outputPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/XamMasterDetail/XamMasterDetail.UITests/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dstrube/.config/NuGet/NuGet.Config"

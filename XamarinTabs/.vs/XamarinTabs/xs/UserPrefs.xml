@@ -2,7 +2,11 @@
   <MonoDevelop.Ide.ItemProperties.XamarinTabs.UITests FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.XamarinTabs.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B8F488B7-FBFD-4831-8575-5A705CE480CF" />
   <MonoDevelop.Ide.ItemProperties.XamarinTabs FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinTabs/App.xaml.cs">
+    <Files>
+      <File FileName="XamarinTabs/App.xaml.cs" Line="9" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.XamarinTabs.Android FirstBuild="True" PreferredExecutionTarget="Android.ZX1G226J28" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -159,11 +159,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dstrube/Projects/gaq/local/XamarinTabs/XamarinTabs.UITests/XamarinTabs.UITests.csproj",
+      "projectUniqueName": "/Users/dstrube/Projects/gaq/githubForNonprofits/XamarinTabs/XamarinTabs.UITests/XamarinTabs.UITests.csproj",
       "projectName": "XamarinTabs.UITests",
-      "projectPath": "/Users/dstrube/Projects/gaq/local/XamarinTabs/XamarinTabs.UITests/XamarinTabs.UITests.csproj",
+      "projectPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/XamarinTabs/XamarinTabs.UITests/XamarinTabs.UITests.csproj",
       "packagesPath": "/Users/dstrube/.nuget/packages/",
-      "outputPath": "/Users/dstrube/Projects/gaq/local/XamarinTabs/XamarinTabs.UITests/obj",
+      "outputPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/XamarinTabs/XamarinTabs.UITests/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dstrube/.config/NuGet/NuGet.Config"

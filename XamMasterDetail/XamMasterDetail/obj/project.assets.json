@@ -345,11 +345,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dstrube/Projects/gaq/local/XamMasterDetail/XamMasterDetail/XamMasterDetail.csproj",
+      "projectUniqueName": "/Users/dstrube/Projects/gaq/githubForNonprofits/XamMasterDetail/XamMasterDetail/XamMasterDetail.csproj",
       "projectName": "XamMasterDetail",
-      "projectPath": "/Users/dstrube/Projects/gaq/local/XamMasterDetail/XamMasterDetail/XamMasterDetail.csproj",
+      "projectPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/XamMasterDetail/XamMasterDetail/XamMasterDetail.csproj",
       "packagesPath": "/Users/dstrube/.nuget/packages/",
-      "outputPath": "/Users/dstrube/Projects/gaq/local/XamMasterDetail/XamMasterDetail/obj",
+      "outputPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/XamMasterDetail/XamMasterDetail/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

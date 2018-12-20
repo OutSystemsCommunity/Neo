@@ -761,11 +761,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dstrube/Projects/gaq/local/XamarinTabs/XamarinTabs.Android/XamarinTabs.Android.csproj",
+      "projectUniqueName": "/Users/dstrube/Projects/gaq/githubForNonprofits/XamarinTabs/XamarinTabs.Android/XamarinTabs.Android.csproj",
       "projectName": "XamarinTabs.Android",
-      "projectPath": "/Users/dstrube/Projects/gaq/local/XamarinTabs/XamarinTabs.Android/XamarinTabs.Android.csproj",
+      "projectPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/XamarinTabs/XamarinTabs.Android/XamarinTabs.Android.csproj",
       "packagesPath": "/Users/dstrube/.nuget/packages/",
-      "outputPath": "/Users/dstrube/Projects/gaq/local/XamarinTabs/XamarinTabs.Android/obj",
+      "outputPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/XamarinTabs/XamarinTabs.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dstrube/.config/NuGet/NuGet.Config"
