@@ -1,5 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
@@ -7,8 +6,11 @@ namespace DiveLog
 {
     public partial class App : Application
     {
+
         public App()
         {
+            DebugLogger.Log();
+
             //old
             //InitializeComponent();
             //MainPage = new MainPage();
@@ -45,16 +47,20 @@ namespace DiveLog
 
         protected override void OnStart()
         {
+            DebugLogger.Log();
+            //Debug.WriteLine(MethodBase.GetCurrentMethod().Name);
             // Handle when your app starts
         }
 
         protected override void OnSleep()
         {
+            DebugLogger.Log();
             // Handle when your app sleeps
         }
 
         protected override void OnResume()
         {
+            DebugLogger.Log();
             // Handle when your app resumes
         }
     }

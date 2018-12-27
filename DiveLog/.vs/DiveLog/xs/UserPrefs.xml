@@ -1,16 +1,13 @@
 ﻿<Properties StartupConfiguration="{A3AD3DF6-D451-4668-9095-41A31E28D7C2}|Default">
   <MonoDevelop.Ide.ItemProperties.DiveLog.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.42CBFEE6-DC17-4C07-A509-B6C5D08D6480" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DiveLog/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DiveLog/App.xaml.cs">
     <Files>
-      <File FileName="DiveLog/App.xaml.cs" Line="40" Column="95" />
-      <File FileName="DiveLog/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="DiveLog/MainPage.xaml" Line="7" Column="15" />
+      <File FileName="DiveLog/App.xaml.cs" Line="8" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.DiveLog.UITests FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.DiveLog.Android FirstBuild="True" PreferredExecutionTarget="Android.ZY2256HC74" />
+  <MonoDevelop.Ide.ItemProperties.DiveLog.Android PreferredExecutionTarget="Android.ZY2256HC74" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
