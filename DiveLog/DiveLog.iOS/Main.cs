@@ -1,4 +1,5 @@
-﻿using UIKit;
+﻿using DiveLog.Utility;
+using UIKit;
 
 namespace DiveLog.iOS
 {

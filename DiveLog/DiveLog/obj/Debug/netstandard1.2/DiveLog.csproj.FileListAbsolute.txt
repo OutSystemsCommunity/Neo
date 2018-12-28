@@ -1,6 +1,0 @@
-/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/obj/Debug/netstandard1.2/DiveLog.csprojAssemblyReference.cache
-/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/obj/Debug/netstandard1.2/App.xaml.g.cs
-/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/obj/Debug/netstandard1.2/MainPage.xaml.g.cs
-/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/obj/Debug/netstandard1.2/DiveLog.csproj.CoreCompileInputs.cache
-/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/obj/Debug/netstandard1.2/DiveLog.AssemblyInfoInputs.cache
-/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/obj/Debug/netstandard1.2/DiveLog.AssemblyInfo.cs

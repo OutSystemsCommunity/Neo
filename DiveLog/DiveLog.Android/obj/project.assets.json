@@ -927,11 +927,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.Android/DiveLog.Android.csproj",
+      "projectUniqueName": "/Users/dstrube/Projects/DiveLog/DiveLog.Android/DiveLog.Android.csproj",
       "projectName": "DiveLog.Android",
-      "projectPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.Android/DiveLog.Android.csproj",
+      "projectPath": "/Users/dstrube/Projects/DiveLog/DiveLog.Android/DiveLog.Android.csproj",
       "packagesPath": "/Users/dstrube/.nuget/packages/",
-      "outputPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.Android/obj",
+      "outputPath": "/Users/dstrube/Projects/DiveLog/DiveLog.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dstrube/.config/NuGet/NuGet.Config"
@@ -946,8 +946,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/DiveLog.csproj": {
-              "projectPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/DiveLog.csproj"
+            "/Users/dstrube/Projects/DiveLog/DiveLog/DiveLog.csproj": {
+              "projectPath": "/Users/dstrube/Projects/DiveLog/DiveLog/DiveLog.csproj"
             }
           }
         }

@@ -1,4 +1,5 @@
-﻿using Foundation;
+﻿using DiveLog.Utility;
+using Foundation;
 using UIKit;
 
 namespace DiveLog.iOS
@@ -20,6 +21,7 @@ namespace DiveLog.iOS
         {
             DebugLogger.Log();
 
+            //When ready for UI testing, read up on these two links then uncomment the following:
             //https://calaba.sh/
             //https://forums.xamarin.com/discussion/93584/question-about-calabash-announcement
             //Xamarin.Calabash.Start();

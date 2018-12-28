@@ -1,13 +1,19 @@
-﻿<Properties StartupConfiguration="{A3AD3DF6-D451-4668-9095-41A31E28D7C2}|Default">
-  <MonoDevelop.Ide.ItemProperties.DiveLog.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.42CBFEE6-DC17-4C07-A509-B6C5D08D6480" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DiveLog/App.xaml.cs">
+﻿<Properties StartupConfiguration="{C3A75600-B889-4D32-BCD0-38A35D4F1D7A}|Default">
+  <MonoDevelop.Ide.ItemProperties.DiveLog.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.42CBFEE6-DC17-4C07-A509-B6C5D08D6480" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DiveLog/ViewModels/BaseViewModel.cs">
     <Files>
-      <File FileName="DiveLog/App.xaml.cs" Line="8" Column="6" />
+      <File FileName="DiveLog/Views/LoginPage.xaml" Line="7" Column="14" />
+      <File FileName="DiveLog/Views/MainPage.xaml" Line="6" Column="62" />
+      <File FileName="DiveLog/Views/ItemsPage.xaml" Line="7" Column="88" />
+      <File FileName="DiveLog/ViewModels/LoginViewModel.cs" Line="25" Column="10" />
+      <File FileName="DiveLog/ViewModels/ItemsViewModel.cs" Line="35" Column="1" />
+      <File FileName="DiveLog/Views/ItemsPage.xaml.cs" Line="52" Column="1" />
+      <File FileName="DiveLog/ViewModels/BaseViewModel.cs" Line="18" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.DiveLog.Android PreferredExecutionTarget="Android.ZY2256HC74" />
+  <MonoDevelop.Ide.ItemProperties.DiveLog.Android PreferredExecutionTarget="Android.Nexus_6_API_25" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

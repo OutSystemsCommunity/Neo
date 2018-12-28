@@ -33,20 +33,24 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DiveLog.iOS\DiveLog.iOS.csproj">
-      <Project>{A3AD3DF6-D451-4668-9095-41A31E28D7C2}</Project>
+      <Project>{C3A75600-B889-4D32-BCD0-38A35D4F1D7A}</Project>
       <Name>DiveLog.iOS</Name>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="..\DiveLog.Android\DiveLog.Android.csproj">
-      <Project>{BB008297-831A-4E9B-A355-D694EB8A4CAB}</Project>
+      <Project>{24CE3C36-16B9-426D-AA0C-5961ECF8D88C}</Project>
       <Name>DiveLog.Android</Name>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
       <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Tests.cs" />
+    <Compile Include="Tests/BaseTest.cs" />
+    <Compile Include="Tests/MockDataTests.cs" />
+    <Compile Include="Pages/BasePage.cs" />
+    <Compile Include="Pages/ItemsPage.cs" />
+    <Compile Include="Pages/NewItemPage.cs" />
     <Compile Include="AppInitializer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
