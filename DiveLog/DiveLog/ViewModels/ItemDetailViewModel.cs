@@ -6,11 +6,11 @@ namespace DiveLog.ViewModels
 {
     public class ItemDetailViewModel : BaseViewModel
     {
-        public Item Item { get; set; }
-        public ItemDetailViewModel(Item item = null)
+        public Dive Dive { get; set; }
+        public ItemDetailViewModel(Dive dive = null)
         {
-            Title = item?.Text;
-            Item = item;
+            Title = dive?.Text;
+            Dive = dive;
         }
     }
 }

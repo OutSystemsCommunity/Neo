@@ -1,4 +1,4 @@
-/Users/dstrube/Projects/DiveLog/DiveLog.iOS/bin/iPhoneSimulator/Debug/DiveLog.iOS.exe
+/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.iOS/bin/iPhoneSimulator/Debug/DiveLog.iOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.12/lib/mono/Xamarin.iOS/mscorlib.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.12/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.12/lib/mono/Xamarin.iOS/System.dll
@@ -21,5 +21,5 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.12/lib/mono/Xamarin.iOS/System.Web.Services.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.12/lib/mono/Xamarin.iOS/System.Xml.Linq.dll
 /Users/dstrube/.nuget/packages/xamarin.forms/3.4.0.1008975/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
-/Users/dstrube/Projects/DiveLog/DiveLog/bin/Debug/netstandard2.0/DiveLog.dll
+/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/bin/Debug/netstandard2.0/DiveLog.dll
 /Users/dstrube/.nuget/packages/xamarin.forms/3.4.0.1008975/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll

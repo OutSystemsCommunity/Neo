@@ -27,12 +27,12 @@ namespace DiveLog.Views
         async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
         {
             DebugLogger.Log();
-            var item = args.SelectedItem as Item;
-            if (item == null)
+            var dive = args.SelectedItem as Dive;
+            if (dive == null)
             {
                 return;
             }
-            await Navigation.PushAsync(new ItemDetailPage(new ItemDetailViewModel(item)));
+            await Navigation.PushAsync(new ItemDetailPage(new ItemDetailViewModel(dive)));
 
             // Manually deselect item.
             ItemsListView.SelectedItem = null;
@@ -49,7 +49,7 @@ namespace DiveLog.Views
             DebugLogger.Log();
             base.OnAppearing();
 
-            if (viewModel.Items.Count == 0)
+            if (viewModel.Dives.Count == 0)
             {
                 viewModel.LoadItemsCommand.Execute(null);
             }

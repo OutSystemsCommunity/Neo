@@ -1,5 +1,4 @@
 ﻿using DiveLog.Models;
-using System;
 using System.Collections.Generic;
 
 using Xamarin.Forms;
@@ -18,7 +17,7 @@ namespace DiveLog.Views
 
             menuItems = new List<HomeMenuItem>
             {
-                new HomeMenuItem {Id = MenuItemType.Browse, Title="Browse" },
+                new HomeMenuItem {Id = MenuItemType.Dives, Title="Dives" },
                 new HomeMenuItem {Id = MenuItemType.Settings, Title="Settings" },
                 new HomeMenuItem {Id = MenuItemType.Logout, Title="Logout" }
             };

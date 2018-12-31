@@ -16,7 +16,7 @@
     </ContentPage.ToolbarItems>
     <StackLayout >
         <ListView x:Name="ItemsListView" 
-                  ItemsSource="{Binding Items}" 
+                  ItemsSource="{Binding Dives}" 
                   VerticalOptions="FillAndExpand" 
                   HasUnevenRows="true" 
                   RefreshCommand="{Binding LoadItemsCommand}" 

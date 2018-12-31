@@ -13,7 +13,7 @@ namespace DiveLog.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-        public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>() ?? new MockDataStore();
+        public IDataStore<Dive> DataStore => DependencyService.Get<IDataStore<Dive>>() ?? new MockDataStore();
 
         protected bool IsDark = false;
         public Color BackgroundColor { get; protected set; }

@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace DiveLog.Models
 {
     public enum MenuItemType
     {
-        Browse,
+        Dives,
         Settings, 
         Logout
     }

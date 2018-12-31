@@ -1,14 +1,10 @@
 ﻿<Properties StartupConfiguration="{C3A75600-B889-4D32-BCD0-38A35D4F1D7A}|Default">
   <MonoDevelop.Ide.ItemProperties.DiveLog.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.42CBFEE6-DC17-4C07-A509-B6C5D08D6480" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DiveLog/ViewModels/BaseViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DiveLog/Views/ItemsPage.xaml">
     <Files>
-      <File FileName="DiveLog/Views/LoginPage.xaml" Line="7" Column="14" />
-      <File FileName="DiveLog/Views/MainPage.xaml" Line="6" Column="62" />
-      <File FileName="DiveLog/Views/ItemsPage.xaml" Line="7" Column="88" />
-      <File FileName="DiveLog/ViewModels/LoginViewModel.cs" Line="25" Column="10" />
-      <File FileName="DiveLog/ViewModels/ItemsViewModel.cs" Line="35" Column="1" />
-      <File FileName="DiveLog/Views/ItemsPage.xaml.cs" Line="52" Column="1" />
-      <File FileName="DiveLog/ViewModels/BaseViewModel.cs" Line="18" Column="38" />
+      <File FileName="DiveLog/Models/Dive.cs" Line="15" Column="1" />
+      <File FileName="DiveLog/Views/ItemsPage.xaml" Line="19" Column="46" />
+      <File FileName="DiveLog/ViewModels/ItemsViewModel.cs" Line="16" Column="48" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

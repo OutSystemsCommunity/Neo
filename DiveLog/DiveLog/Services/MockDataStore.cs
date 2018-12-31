@@ -8,44 +8,71 @@ using DiveLog.Utility;
 
 namespace DiveLog.Services
 {
-    public class MockDataStore : IDataStore<Item>
+    public class MockDataStore : IDataStore<Dive>
     {
-        List<Item> items;
+        List<Dive> dives;
 
         public MockDataStore()
         {
             DebugLogger.Log();
 
-            items = new List<Item>();
-            var mockItems = new List<Item>
+            dives = new List<Dive>();
+            var mockItems = new List<Dive>
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Dive 1", Description="Dive 1 description" },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Dive 2", Description="Dive 2 description" },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Dive 3", Description="Dive 3 description" },
+                new Dive { 
+                    Id = Guid.NewGuid().ToString(), 
+                    Text = "Dive 1", 
+                    Description="Dive 1 description",
+                    Location="OV",
+                    Date=DateTime.Today,
+                    DPIC="Alice",
+                    Tender="Bob",
+                    Mode="SCUBA",
+                },
+                new Dive { 
+                    Id = Guid.NewGuid().ToString(), 
+                    Text = "Dive 2", 
+                    Description="Dive 2 description",
+                    Location="CW7",
+                    Date=DateTime.Today,
+                    DPIC="Bob",
+                    Tender="Charlie",
+                    Mode="SCUBA",
+                },
+                new Dive { 
+                    Id = Guid.NewGuid().ToString(), 
+                    Text = "Dive 3", 
+                    Description="Dive 3 description",
+                    Location="OV",
+                    Date=DateTime.Today,
+                    DPIC="Charlie",
+                    Tender="Alice",
+                    Mode="SurfaceSupplied",
+                },
             };
 
-            foreach (var item in mockItems)
+            foreach (var dive in mockItems)
             {
-                items.Add(item);
+                dives.Add(dive);
             }
         }
 
-        public async Task<bool> AddItemAsync(Item item)
+        public async Task<bool> AddItemAsync(Dive dive)
         {
             DebugLogger.Log();
 
-            items.Add(item);
+            dives.Add(dive);
 
             return await Task.FromResult(true);
         }
 
-        public async Task<bool> UpdateItemAsync(Item item)
+        public async Task<bool> UpdateItemAsync(Dive dive)
         {
             DebugLogger.Log();
 
-            var oldItem = items.Where((Item arg) => arg.Id == item.Id).FirstOrDefault();
-            items.Remove(oldItem);
-            items.Add(item);
+            var oldDive = dives.Where((Dive arg) => arg.Id == dive.Id).FirstOrDefault();
+            dives.Remove(oldDive);
+            dives.Add(dive);
 
             return await Task.FromResult(true);
         }
@@ -54,24 +81,24 @@ namespace DiveLog.Services
         {
             DebugLogger.Log();
 
-            var oldItem = items.Where((Item arg) => arg.Id == id).FirstOrDefault();
-            items.Remove(oldItem);
+            var oldDive = dives.Where((Dive arg) => arg.Id == id).FirstOrDefault();
+            dives.Remove(oldDive);
 
             return await Task.FromResult(true);
         }
 
-        public async Task<Item> GetItemAsync(string id)
+        public async Task<Dive> GetItemAsync(string id)
         {
             DebugLogger.Log();
 
-            return await Task.FromResult(items.FirstOrDefault(s => s.Id == id));
+            return await Task.FromResult(dives.FirstOrDefault(s => s.Id == id));
         }
 
-        public async Task<IEnumerable<Item>> GetItemsAsync(bool forceRefresh = false)
+        public async Task<IEnumerable<Dive>> GetItemsAsync(bool forceRefresh = false)
         {
             DebugLogger.Log();
 
-            return await Task.FromResult(items);
+            return await Task.FromResult(dives);
         }
     }
 }

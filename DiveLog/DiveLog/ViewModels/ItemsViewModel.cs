@@ -13,21 +13,21 @@ namespace DiveLog.ViewModels
 {
     public class ItemsViewModel : BaseViewModel
     {
-        public ObservableCollection<Item> Items { get; set; }
+        public ObservableCollection<Dive> Dives { get; set; }
         public Command LoadItemsCommand { get; set; }
 
         public ItemsViewModel()
         {
             DebugLogger.Log();
 
-            Title = "Browse";
-            Items = new ObservableCollection<Item>();
+            Title = "Dives";
+            Dives = new ObservableCollection<Dive>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
-            MessagingCenter.Subscribe<NewItemPage, Item>(this, "AddItem", async (obj, item) =>
+            MessagingCenter.Subscribe<NewItemPage, Dive>(this, "AddItem", async (obj, item) =>
             {
-                var newItem = item as Item;
-                Items.Add(newItem);
+                var newItem = item as Dive;
+                Dives.Add(newItem);
                 await DataStore.AddItemAsync(newItem);
                 //SetTheme();
             });
@@ -47,12 +47,12 @@ namespace DiveLog.ViewModels
 
             try
             {
-                Items.Clear();
+                Dives.Clear();
                 Debug.WriteLine($"TextColor: {TextColor}");
                 var items = await DataStore.GetItemsAsync(true);
                 foreach (var item in items)
                 {
-                    Items.Add(item);
+                    Dives.Add(item);
                 }
             }
             catch (Exception ex)

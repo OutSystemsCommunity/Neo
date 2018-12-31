@@ -29,13 +29,13 @@ namespace DiveLog.Views
 
             InitializeComponent();
 
-            var item = new Item
+            var dive = new Dive
             {
                 Text = "Item 1",
                 Description = "This is an item description."
             };
 
-            viewModel = new ItemDetailViewModel(item);
+            viewModel = new ItemDetailViewModel(dive);
             BindingContext = viewModel;
         }
     }

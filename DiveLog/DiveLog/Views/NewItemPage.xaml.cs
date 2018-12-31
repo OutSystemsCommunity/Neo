@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -12,7 +11,7 @@ namespace DiveLog.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class NewItemPage : ContentPage
     {
-        public Item Item { get; set; }
+        public Dive Item { get; set; }
 
         public NewItemPage()
         {
@@ -20,7 +19,7 @@ namespace DiveLog.Views
 
             InitializeComponent();
 
-            Item = new Item
+            Item = new Dive
             {
                 Text = "Dive name",
                 Description = "Dive description"
