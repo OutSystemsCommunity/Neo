@@ -21,8 +21,6 @@ namespace DiveLog.Services
             {
                 new Dive { 
                     Id = Guid.NewGuid().ToString(), 
-                    Text = "Dive 1", 
-                    Description="Dive 1 description",
                     Location="OV",
                     Date=DateTime.Today,
                     DPIC="Alice",
@@ -31,8 +29,6 @@ namespace DiveLog.Services
                 },
                 new Dive { 
                     Id = Guid.NewGuid().ToString(), 
-                    Text = "Dive 2", 
-                    Description="Dive 2 description",
                     Location="CW7",
                     Date=DateTime.Today,
                     DPIC="Bob",
@@ -41,8 +37,6 @@ namespace DiveLog.Services
                 },
                 new Dive { 
                     Id = Guid.NewGuid().ToString(), 
-                    Text = "Dive 3", 
-                    Description="Dive 3 description",
                     Location="OV",
                     Date=DateTime.Today,
                     DPIC="Charlie",
@@ -57,7 +51,7 @@ namespace DiveLog.Services
             }
         }
 
-        public async Task<bool> AddItemAsync(Dive dive)
+        public async Task<bool> AddDiveAsync(Dive dive)
         {
             DebugLogger.Log();
 
@@ -66,7 +60,7 @@ namespace DiveLog.Services
             return await Task.FromResult(true);
         }
 
-        public async Task<bool> UpdateItemAsync(Dive dive)
+        public async Task<bool> UpdateDiveAsync(Dive dive)
         {
             DebugLogger.Log();
 
@@ -77,7 +71,7 @@ namespace DiveLog.Services
             return await Task.FromResult(true);
         }
 
-        public async Task<bool> DeleteItemAsync(string id)
+        public async Task<bool> DeleteDiveAsync(string id)
         {
             DebugLogger.Log();
 
@@ -87,14 +81,14 @@ namespace DiveLog.Services
             return await Task.FromResult(true);
         }
 
-        public async Task<Dive> GetItemAsync(string id)
+        public async Task<Dive> GetDiveAsync(string id)
         {
             DebugLogger.Log();
 
             return await Task.FromResult(dives.FirstOrDefault(s => s.Id == id));
         }
 
-        public async Task<IEnumerable<Dive>> GetItemsAsync(bool forceRefresh = false)
+        public async Task<IEnumerable<Dive>> GetDivesAsync(bool forceRefresh = false)
         {
             DebugLogger.Log();
 

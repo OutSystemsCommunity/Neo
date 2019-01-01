@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="DiveLog.Views.DivesPage" 
+             Title="{Binding Title}" 
+             x:Name="BrowseDivesPage"
+             BackgroundColor="{Binding BackgroundColor}"><!--this isn't working yet -->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Clicked="AddDive_Clicked">
+            <ToolbarItem.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="UWP" Value="add.png" />
+                </OnPlatform>
+            </ToolbarItem.Icon>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <StackLayout >
+        <ListView x:Name="DivesListView" 
+                  ItemsSource="{Binding Dives}" 
+                  VerticalOptions="FillAndExpand" 
+                  HasUnevenRows="true" 
+                  RefreshCommand="{Binding LoadItemsCommand}" 
+                  IsPullToRefreshEnabled="true" 
+                  IsRefreshing="{Binding IsBusy, Mode=OneWay}" 
+                  CachingStrategy="RecycleElement" 
+                  ItemSelected="OnItemSelected" 
+                  ><!--
+            this isn't working yet 
+            BackgroundColor="{Binding BackgroundColor}"
+            -->
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="10" BackgroundColor="{Binding BackgroundColor}"><!--this isn't working yet -->
+                            <Label Text="{Binding Location}" 
+                                   LineBreakMode="NoWrap" 
+                                   Style="{DynamicResource ListItemTextStyle}" 
+                                   FontSize="16" 
+                                   TextColor="{Binding TextColor}" /><!--this isn't working yet -->
+                            <Label Text="{Binding Date, StringFormat='\{0:d}'}"  
+                                   LineBreakMode="NoWrap" 
+                                   Style="{DynamicResource ListItemDetailTextStyle}" 
+                                   FontSize="13" 
+                                   TextColor="{Binding TextColor}" /><!--this isn't working yet -->
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

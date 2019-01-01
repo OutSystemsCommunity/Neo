@@ -1,4 +1,5 @@
 ﻿using DiveLog.Models;
+using DiveLog.Utility;
 using System.Collections.Generic;
 
 using Xamarin.Forms;
@@ -13,6 +14,7 @@ namespace DiveLog.Views
         List<HomeMenuItem> menuItems;
         public MenuPage()
         {
+            DebugLogger.Log();
             InitializeComponent();
 
             menuItems = new List<HomeMenuItem>
@@ -29,6 +31,7 @@ namespace DiveLog.Views
             {
                 if (e.SelectedItem == null)
                 {
+                    DebugLogger.Log("SelectedItem is null");
                     return;
                 }
                 var id = (int)((HomeMenuItem)e.SelectedItem).Id;

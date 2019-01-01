@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="DiveLog.Views.DiveDetailPage" 
+             Title="{Binding Title}">
+    <StackLayout Spacing="20" Padding="15" BackgroundColor="{Binding BackgroundColor}">
+        <Label Text="Location:" FontSize="Medium" BackgroundColor="{Binding BackgroundColor}"/>
+        <Label Text="{Binding Dive.Location}" FontSize="Small" BackgroundColor="{Binding BackgroundColor}"/>
+        <Label Text="Date:" FontSize="Medium" BackgroundColor="{Binding BackgroundColor}"/>
+        <Label Text="{Binding Dive.Date, StringFormat='\{0:d}'}"  FontSize="Small" BackgroundColor="{Binding BackgroundColor}" />
+        <!--https://forums.xamarin.com/discussion/105561/xaml-date-format -->
+        <Label Text="DPIC:" FontSize="Medium" BackgroundColor="{Binding BackgroundColor}"/>
+        <Label Text="{Binding Dive.DPIC}" FontSize="Small" BackgroundColor="{Binding BackgroundColor}"/>
+        <Label Text="Tender:" FontSize="Medium" BackgroundColor="{Binding BackgroundColor}"/>
+        <Label Text="{Binding Dive.Tender}" FontSize="Small" BackgroundColor="{Binding BackgroundColor}"/>
+        <Label Text="Mode:" FontSize="Medium" BackgroundColor="{Binding BackgroundColor}"/>
+        <Label Text="{Binding Dive.Mode}" FontSize="Small" BackgroundColor="{Binding BackgroundColor}"/>
+        <!--TODO List divers, show count? -->
+    </StackLayout>
+</ContentPage>

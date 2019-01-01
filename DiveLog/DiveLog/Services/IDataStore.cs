@@ -6,10 +6,10 @@ namespace DiveLog.Services
 {
     public interface IDataStore<T>
     {
-        Task<bool> AddItemAsync(T item);
-        Task<bool> UpdateItemAsync(T item);
-        Task<bool> DeleteItemAsync(string id);
-        Task<T> GetItemAsync(string id);
-        Task<IEnumerable<T>> GetItemsAsync(bool forceRefresh = false);
+        Task<bool> AddDiveAsync(T item);
+        Task<bool> UpdateDiveAsync(T item);
+        Task<bool> DeleteDiveAsync(string id);
+        Task<T> GetDiveAsync(string id);
+        Task<IEnumerable<T>> GetDivesAsync(bool forceRefresh = false);
     }
 }

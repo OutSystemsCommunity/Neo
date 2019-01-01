@@ -4,7 +4,7 @@
              x:Class="DiveLog.Views.LoginPage"
              xmlns:vm="clr-namespace:DiveLog.ViewModels" 
              Title="{Binding Title}" 
-             BackgroundColor="{Binding BackgroundColor}">
+             ><!--BackgroundColor="{Binding BackgroundColor}"-->
     <ContentPage.BindingContext>
         <vm:LoginViewModel />
     </ContentPage.BindingContext>
@@ -17,19 +17,26 @@
         </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.Content>
-        <Grid>
+        <!--<Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>-->
             <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="Fill" ><!--shows all around button: BackgroundColor="{StaticResource Primary}"-->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" ><!-- doesn't show: BackgroundColor="Green" -->
-                    <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand" ><!--shows just above and below button: BackgroundColor="Teal"-->
-                        <Label VerticalOptions="Center" HeightRequest="64" Text="Login label" BackgroundColor="{StaticResource Primary}" TextColor="Black"/>
-                        <Button Margin="0,0,0,0" Text="  Login  " Command="{Binding LoginCommand}" BackgroundColor="{Binding ButtonBackgroundColor}" TextColor="{Binding ButtonTextColor}" />
+                <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" ><!-- doesn't show: BackgroundColor="Green" -->
+                    <ContentView Padding="0,0,0,0" VerticalOptions="FillAndExpand" >
+                        <Entry Margin="0,0,0,0" Text="username" MaxLength="10"/>
+                    </ContentView>
+                    <ContentView Padding="0,0,0,0" VerticalOptions="FillAndExpand" >
+                        <Entry Margin="0,0,0,0" Text="password" MaxLength="10" IsPassword="true"/>                        
+                    </ContentView>
+                    <ContentView Padding="0,0,0,0" VerticalOptions="FillAndExpand" ><!--shows just above and below button: BackgroundColor="Teal"-->
+                        <Button Margin="0,0,0,0" Text="  Login  " Command="{Binding LoginCommand}" />
+                        <!--BackgroundColor="{Binding ButtonBackgroundColor}" TextColor="{Binding ButtonTextColor}" -->
                     </ContentView>
                 </StackLayout>
             </StackLayout>
-        </Grid>
+        <!--</Grid>-->
     </ContentPage.Content>
 </ContentPage>

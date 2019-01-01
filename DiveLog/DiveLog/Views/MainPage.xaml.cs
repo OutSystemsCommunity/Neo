@@ -33,12 +33,13 @@ namespace DiveLog.Views
                 switch (id)
                 {
                     case (int)MenuItemType.Dives:
-                        MenuPages.Add(id, new NavigationPage(new ItemsPage()));
+                        MenuPages.Add(id, new NavigationPage(new DivesPage()));
                         break;
                     case (int)MenuItemType.Settings:
                         MenuPages.Add(id, new NavigationPage(new SettingsPage()));
                         break;
                     case (int)MenuItemType.Logout:
+                        DebugLogger.Log("Logging out");
                         Application.Current.MainPage = new LoginPage();
                         return;
                 }
