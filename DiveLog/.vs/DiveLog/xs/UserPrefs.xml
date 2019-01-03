@@ -1,14 +1,9 @@
 ﻿<Properties StartupConfiguration="{C3A75600-B889-4D32-BCD0-38A35D4F1D7A}|Default">
   <MonoDevelop.Ide.ItemProperties.DiveLog.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.42CBFEE6-DC17-4C07-A509-B6C5D08D6480" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DiveLog/Views/NewDivePage.xaml">
-    <Files>
-      <File FileName="DiveLog/Views/NewDivePage.xaml" Line="25" Column="1" />
-      <File FileName="DiveLog/Views/NewDivePage.xaml.cs" Line="17" Column="71" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.DiveLog.Android PreferredExecutionTarget="Android.Nexus_6_API_25" />
+  <MonoDevelop.Ide.ItemProperties.DiveLog.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Nexus_6_API_25" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

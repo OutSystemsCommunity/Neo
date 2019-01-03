@@ -7,8 +7,9 @@
         <Label Text="Location:" FontSize="Medium" BackgroundColor="{Binding BackgroundColor}"/>
         <Label Text="{Binding Dive.Location}" FontSize="Small" BackgroundColor="{Binding BackgroundColor}"/>
         <Label Text="Date:" FontSize="Medium" BackgroundColor="{Binding BackgroundColor}"/>
-        <Label Text="{Binding Dive.Date, StringFormat='\{0:d}'}"  FontSize="Small" BackgroundColor="{Binding BackgroundColor}" />
-        <!--https://forums.xamarin.com/discussion/105561/xaml-date-format -->
+        <Label Text="{Binding Dive.Date}"  FontSize="Small" BackgroundColor="{Binding BackgroundColor}" />
+        <!-- ,StringFormat='\{0:d}'
+        https://forums.xamarin.com/discussion/105561/xaml-date-format -->
         <Label Text="DPIC:" FontSize="Medium" BackgroundColor="{Binding BackgroundColor}"/>
         <Label Text="{Binding Dive.DPIC}" FontSize="Small" BackgroundColor="{Binding BackgroundColor}"/>
         <Label Text="Tender:" FontSize="Medium" BackgroundColor="{Binding BackgroundColor}"/>

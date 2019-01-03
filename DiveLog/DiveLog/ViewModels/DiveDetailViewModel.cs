@@ -1,6 +1,4 @@
-﻿using System;
-
-using DiveLog.Models;
+﻿using DiveLog.Models;
 using DiveLog.Utility;
 
 namespace DiveLog.ViewModels
@@ -15,6 +13,7 @@ namespace DiveLog.ViewModels
 
             Title = dive?.Location + " - " + dive?.Date.ToShortDateString();
             Dive = dive;
+
         }
     }
 }

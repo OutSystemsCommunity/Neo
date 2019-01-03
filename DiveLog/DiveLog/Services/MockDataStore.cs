@@ -22,7 +22,7 @@ namespace DiveLog.Services
                 new Dive { 
                     Id = Guid.NewGuid().ToString(), 
                     Location="OV",
-                    Date=DateTime.Today,
+                    Date=DateTime.Now,
                     DPIC="Alice",
                     Tender="Bob",
                     Mode="SCUBA",
@@ -30,7 +30,7 @@ namespace DiveLog.Services
                 new Dive { 
                     Id = Guid.NewGuid().ToString(), 
                     Location="CW7",
-                    Date=DateTime.Today,
+                    Date=DateTime.Now,
                     DPIC="Bob",
                     Tender="Charlie",
                     Mode="SCUBA",
@@ -38,7 +38,7 @@ namespace DiveLog.Services
                 new Dive { 
                     Id = Guid.NewGuid().ToString(), 
                     Location="OV",
-                    Date=DateTime.Today,
+                    Date=DateTime.Now,
                     DPIC="Charlie",
                     Tender="Alice",
                     Mode="SurfaceSupplied",
