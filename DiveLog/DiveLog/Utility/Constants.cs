@@ -9,6 +9,5 @@ namespace DiveLog.Utility
 
         public static DateTime MAX_DATE() { return new DateTime(2020, 12, 31); }
         public static DateTime MIN_DATE() { return new DateTime(2017, 12, 31); }
-        public static string[] Locations() { return new string[] { "OV", "CW7", "Other"}; }
     }
 }

@@ -26,7 +26,7 @@ namespace DiveLog.Views
             //BackgroundColor = viewModel.BackgroundColor;
         }
 
-        async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
+        async void OnDiveSelected(object sender, SelectedItemChangedEventArgs args)
         {
             DebugLogger.Log();
             var dive = args.SelectedItem as Dive;
@@ -54,7 +54,7 @@ namespace DiveLog.Views
 
             if (viewModel.Dives.Count == 0)
             {
-                viewModel.LoadItemsCommand.Execute(null);
+                viewModel.LoadDivesCommand.Execute(null);
             }
         }
     }

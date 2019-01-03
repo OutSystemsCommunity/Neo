@@ -14,7 +14,7 @@ namespace DiveLog.ViewModels
     public class DivesViewModel : BaseViewModel
     {
         public ObservableCollection<Dive> Dives { get; set; }
-        public Command LoadItemsCommand { get; set; }
+        public Command LoadDivesCommand { get; set; }
 
         public DivesViewModel()
         {
@@ -22,7 +22,7 @@ namespace DiveLog.ViewModels
 
             Title = "Dives";
             Dives = new ObservableCollection<Dive>();
-            LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
+            LoadDivesCommand = new Command(async () => await ExecuteLoadDivesCommand());
 
             MessagingCenter.Subscribe<NewDivePage, Dive>(this, "AddDive", async (obj, dive) =>
             {
@@ -35,7 +35,7 @@ namespace DiveLog.ViewModels
 
         }
 
-        async Task ExecuteLoadItemsCommand()
+        async Task ExecuteLoadDivesCommand()
         {
             DebugLogger.Log();
 

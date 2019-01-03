@@ -13,7 +13,7 @@ namespace DiveLog.Models
         public int TankNumber { get; set; }
         public int ComputerNumber { get; set; }
         public bool IsStaff { get; set; }
-        //other flags? certifications / qualifications?
+        //TODO other flags? certifications / qualifications?
         public string Note { get; set; }
     }
 }

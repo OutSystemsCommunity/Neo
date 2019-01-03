@@ -4,37 +4,26 @@
              x:Class="DiveLog.Views.NewDivePage" 
              Title="New Dive">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Cancel" Clicked="Cancel_Clicked">
-            <ToolbarItem.Icon>
-                <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="UWP" Value="cancel.png" />
-                </OnPlatform>
-            </ToolbarItem.Icon>
-        </ToolbarItem>
-        <ToolbarItem Text="Save" Clicked="Save_Clicked">
-            <ToolbarItem.Icon>
-                <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="UWP" Value="save.png" />
-                </OnPlatform>
-            </ToolbarItem.Icon>
-        </ToolbarItem>
+        <ToolbarItem Text="Cancel" Clicked="Cancel_Clicked"/>
+        <ToolbarItem Text="Save" Clicked="Save_Clicked"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout Spacing="20" Padding="15">
             <Label Text="Location:" FontSize="Medium" />
-            <Picker ItemsSource="{Binding Locations}"/>
+            <Picker ItemsSource="{Binding Locations}" x:Name="SelectedLocation"/>
             <Label Text="Date:" FontSize="Medium" />
-            <DatePicker Date="{Binding Dive.Date}" FontSize="Small" MaximumDate="{Binding MAX_DATE}" MinimumDate="{Binding MIN_DATE}"/>
+            <DatePicker Date="{Binding Dive.Date}" FontSize="Small" MaximumDate="{Binding MAX_DATE}" MinimumDate="{Binding MIN_DATE}" x:Name="SelectedDate"/>
             <Label Text="Time:" FontSize="Medium" />
-            <TimePicker Time="{Binding DateTime.Now.TimeOfDay}" FontSize="Small" /> <!--
+            <TimePicker Time="{Binding DateTime.Now.TimeOfDay}" FontSize="Small" x:Name="SelectedTime"/> <!--
             https://forums.xamarin.com/discussion/100669/how-to-set-time-in-timepicker-using-xaml-and-converter
             -->
             <Label Text="DPIC:" FontSize="Medium" />
-            <Entry Text="{Binding Dive.DPIC}" FontSize="Small" /><!--TODO Dropdown / picker -->
+            <Picker ItemsSource="{Binding Divers}" x:Name="SelectedDPIC"/>
             <Label Text="Tender:" FontSize="Medium" />
-            <Entry Text="{Binding Dive.Tender}" FontSize="Small" /><!--TODO Dropdown / picker -->
+            <Picker ItemsSource="{Binding Divers}" x:Name="SelectedTender"/>
             <Label Text="Mode:" FontSize="Medium" />
-            <Entry Text="{Binding Dive.Mode}" FontSize="Small" /><!--TODO Dropdown / picker -->
+            <Picker ItemsSource="{Binding Modes}"/>
+            <Button Text="Pick Divers" x:Name="PickDiversButton"/>
             <!--TODO Multiple divers picker -->
         </StackLayout>
     </ContentPage.Content>

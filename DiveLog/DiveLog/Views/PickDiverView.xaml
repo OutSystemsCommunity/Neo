@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DiveLog.Views.PickDiverView">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save" Clicked="SaveDivers_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+            <StackLayout >
+                <ListView x:Name="DiversListView" 
+                      ItemsSource="{Binding Divers}" 
+                      VerticalOptions="FillAndExpand" 
+                      HasUnevenRows="true" 
+                      RefreshCommand="{Binding LoadDiversCommand}" 
+                      IsPullToRefreshEnabled="true" 
+                      IsRefreshing="{Binding IsBusy, Mode=OneWay}" 
+                      CachingStrategy="RecycleElement" 
+                       > <!--ItemSelected="OnDiverSelected"-->
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="10" >
+                                <Switch />
+                                <Label Text="{Binding Name}" 
+                                       LineBreakMode="NoWrap" 
+                                       FontSize="16" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

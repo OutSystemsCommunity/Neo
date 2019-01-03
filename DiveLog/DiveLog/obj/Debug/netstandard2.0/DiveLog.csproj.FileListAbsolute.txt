@@ -36,3 +36,4 @@
 /Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/obj/Debug/netstandard2.0/DiveLog.dll
 /Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/obj/Debug/netstandard2.0/DiveLog.pdb
 /Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/obj/Debug/netstandard2.0/DiveLog.csprojAssemblyReference.cache
+/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/obj/Debug/netstandard2.0/Views/PickDiverView.xaml.g.cs

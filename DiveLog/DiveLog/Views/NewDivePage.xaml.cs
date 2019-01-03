@@ -14,7 +14,10 @@ namespace DiveLog.Views
         public Dive Dive { get; set; }
         public DateTime MAX_DATE { get { return Constants.MAX_DATE(); } }
         public DateTime MIN_DATE { get { return Constants.MIN_DATE(); } }
-        public string[] Locations { get { return Constants.Locations(); } }
+
+        public string[] Locations { get { return Enum.GetNames(typeof(Location)); } }
+        public string[] Modes { get { return Enum.GetNames(typeof(Mode)); } }
+        public string[] Divers { get { return new string[] { "Stacey Levine", "David Strube"}; } }
 
         public NewDivePage()
         {
@@ -25,12 +28,14 @@ namespace DiveLog.Views
             Dive = new Dive
             {
                 Id = Guid.NewGuid().ToString(),
-                Location = "CW7",
+                Location = Location.CW7,
                 Date = DateTime.Now,
                 DPIC = "Stacey",
                 Tender = "David",
-                Mode = "SCUBA"
+                Mode = Mode.SCUBA
             };
+
+            
 
             BindingContext = this;
         }

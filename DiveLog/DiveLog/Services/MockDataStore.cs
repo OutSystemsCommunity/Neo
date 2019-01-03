@@ -21,27 +21,27 @@ namespace DiveLog.Services
             {
                 new Dive { 
                     Id = Guid.NewGuid().ToString(), 
-                    Location="OV",
+                    Location=Location.OV,
                     Date=DateTime.Now,
                     DPIC="Alice",
                     Tender="Bob",
-                    Mode="SCUBA",
+                    Mode=Mode.SCUBA,
                 },
                 new Dive { 
                     Id = Guid.NewGuid().ToString(), 
-                    Location="CW7",
+                    Location=Location.CW7,
                     Date=DateTime.Now,
                     DPIC="Bob",
                     Tender="Charlie",
-                    Mode="SCUBA",
+                    Mode=Mode.Snorkel,
                 },
                 new Dive { 
                     Id = Guid.NewGuid().ToString(), 
-                    Location="OV",
+                    Location=Location.OV,
                     Date=DateTime.Now,
                     DPIC="Charlie",
                     Tender="Alice",
-                    Mode="SurfaceSupplied",
+                    Mode=Mode.SurfaceSupplied,
                 },
             };
 
