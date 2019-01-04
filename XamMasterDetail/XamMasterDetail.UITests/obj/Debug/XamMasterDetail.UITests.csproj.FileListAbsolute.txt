@@ -1,9 +1,0 @@
-/Users/dstrube/Projects/gaq/local/XamMasterDetail/XamMasterDetail.UITests/bin/Debug/XamMasterDetail.UITests.dll
-/Users/dstrube/Projects/gaq/local/XamMasterDetail/XamMasterDetail.UITests/bin/Debug/XamMasterDetail.UITests.pdb
-/Users/dstrube/Projects/gaq/local/XamMasterDetail/XamMasterDetail.UITests/bin/Debug/nunit.framework.dll
-/Users/dstrube/Projects/gaq/local/XamMasterDetail/XamMasterDetail.UITests/bin/Debug/Xamarin.UITest.dll
-/Users/dstrube/Projects/gaq/local/XamMasterDetail/XamMasterDetail.UITests/obj/Debug/XamMasterDetail.UITests.csprojAssemblyReference.cache
-/Users/dstrube/Projects/gaq/local/XamMasterDetail/XamMasterDetail.UITests/obj/Debug/XamMasterDetail.UITests.csproj.CoreCompileInputs.cache
-/Users/dstrube/Projects/gaq/local/XamMasterDetail/XamMasterDetail.UITests/obj/Debug/XamMasterDetail.UITests.csproj.CopyComplete
-/Users/dstrube/Projects/gaq/local/XamMasterDetail/XamMasterDetail.UITests/obj/Debug/XamMasterDetail.UITests.dll
-/Users/dstrube/Projects/gaq/local/XamMasterDetail/XamMasterDetail.UITests/obj/Debug/XamMasterDetail.UITests.pdb
