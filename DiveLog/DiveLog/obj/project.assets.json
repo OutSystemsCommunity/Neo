@@ -60,11 +60,10 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -342,29 +341,28 @@
     ]
   },
   "packageFolders": {
-    "/Users/dstrube/.nuget/packages/": {},
+    "/Users/ashleyp/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/DiveLog.csproj",
+      "projectUniqueName": "/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog/DiveLog.csproj",
       "projectName": "DiveLog",
-      "projectPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/DiveLog.csproj",
-      "packagesPath": "/Users/dstrube/.nuget/packages/",
-      "outputPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/obj",
+      "projectPath": "/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog/DiveLog.csproj",
+      "packagesPath": "/Users/ashleyp/.nuget/packages/",
+      "outputPath": "/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/dstrube/.config/NuGet/NuGet.Config"
+        "/Users/ashleyp/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "http://nuget.grapecity.com/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

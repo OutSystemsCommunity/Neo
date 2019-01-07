@@ -737,7 +737,7 @@
       ]
     },
     "Xamarin.TestCloud.Agent/0.21.7": {
-      "sha512": "+zk34I1237CfeM+AljHoLsSn/5C4gSNUtFkjQBTIHNru8Qvzqukk0WqHpYoqvuwn94D2RczQF2uGiNIuSBl4TA==",
+      "sha512": "mubMu3vnMkY62KQ3u6dKLFBGHlf2iKt1qU+N7ptAqi+rKpC+Zcy4W1sH0HQdP6YtXuhAkQt1u8LHJMGOd2qkYA==",
       "type": "package",
       "path": "xamarin.testcloud.agent/0.21.7",
       "files": [
@@ -763,32 +763,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/dstrube/.nuget/packages/": {}
+    "/Users/ashleyp/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.iOS/DiveLog.iOS.csproj",
+      "projectUniqueName": "/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog.iOS/DiveLog.iOS.csproj",
       "projectName": "DiveLog.iOS",
-      "projectPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.iOS/DiveLog.iOS.csproj",
-      "packagesPath": "/Users/dstrube/.nuget/packages/",
-      "outputPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.iOS/obj",
+      "projectPath": "/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog.iOS/DiveLog.iOS.csproj",
+      "packagesPath": "/Users/ashleyp/.nuget/packages/",
+      "outputPath": "/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/dstrube/.config/NuGet/NuGet.Config"
+        "/Users/ashleyp/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "http://nuget.grapecity.com/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/DiveLog.csproj": {
-              "projectPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/DiveLog.csproj"
+            "/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog/DiveLog.csproj": {
+              "projectPath": "/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog/DiveLog.csproj"
             }
           }
         }

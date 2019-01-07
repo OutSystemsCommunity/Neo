@@ -922,32 +922,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/dstrube/.nuget/packages/": {}
+    "/Users/ashleyp/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.Android/DiveLog.Android.csproj",
+      "projectUniqueName": "/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog.Android/DiveLog.Android.csproj",
       "projectName": "DiveLog.Android",
-      "projectPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.Android/DiveLog.Android.csproj",
-      "packagesPath": "/Users/dstrube/.nuget/packages/",
-      "outputPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.Android/obj",
+      "projectPath": "/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog.Android/DiveLog.Android.csproj",
+      "packagesPath": "/Users/ashleyp/.nuget/packages/",
+      "outputPath": "/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/dstrube/.config/NuGet/NuGet.Config"
+        "/Users/ashleyp/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
       ],
       "sources": {
-        "http://nuget.grapecity.com/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/DiveLog.csproj": {
-              "projectPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/DiveLog.csproj"
+            "/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog/DiveLog.csproj": {
+              "projectPath": "/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog/DiveLog.csproj"
             }
           }
         }

@@ -1,21 +1,16 @@
 ﻿<Properties StartupConfiguration="{C3A75600-B889-4D32-BCD0-38A35D4F1D7A}|Default">
-  <MonoDevelop.Ide.ItemProperties.DiveLog.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.42CBFEE6-DC17-4C07-A509-B6C5D08D6480" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DiveLog/Views/LoginPage.xaml">
+  <MonoDevelop.Ide.ItemProperties.DiveLog.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A5820C45-2CF5-4BD4-BE97-B61AD6A35393" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DiveLog.iOS/Resources/LaunchScreen.storyboard">
     <Files>
-      <File FileName="DiveLog/Views/LoginPage.xaml" Line="50" Column="66" />
-      <File FileName="DiveLog/ViewModels/LoginViewModel.cs" Line="21" Column="62" />
-      <File FileName="DiveLog/Views/LoginPage.xaml.cs" Line="29" Column="13" />
-      <File FileName="DiveLog/Utility/StaticExtension.cs" Line="18" Column="78" />
-      <File FileName="DiveLog/Views/DivesPage.xaml.cs" Line="24" Column="13" />
+      <File FileName="DiveLog/Views/LoginPage.xaml" Line="1" Column="1" />
+      <File FileName="DiveLog.iOS/Resources/LaunchScreen.storyboard" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.DiveLog.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Nexus_6_API_25" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.ItemProperties.DiveLog.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/Utility/StaticExtension.cs" relfile="DiveLog/Utility/StaticExtension.cs" line="18" column="78" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
