@@ -18,6 +18,7 @@ namespace DiveLog.ViewModels
             Title = "Login title";
             LoginCommand = new Command(() => 
             {
+                //TODO Put validation and authentication here
                 Application.Current.MainPage = new MainPage();
             });
 

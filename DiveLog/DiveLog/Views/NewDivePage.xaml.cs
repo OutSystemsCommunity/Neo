@@ -17,7 +17,7 @@ namespace DiveLog.Views
 
         public string[] Locations { get { return Enum.GetNames(typeof(Location)); } }
         public string[] Modes { get { return Enum.GetNames(typeof(Mode)); } }
-        public string[] Divers { get { return new string[] { "Stacey Levine", "David Strube"}; } }
+        public string[] Divers { get { return new string[] { "Stacey Levine", "David Strube", "Brian Lam"}; } }
 
         public NewDivePage()
         {

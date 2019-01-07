@@ -1,15 +1,21 @@
 ﻿<Properties StartupConfiguration="{C3A75600-B889-4D32-BCD0-38A35D4F1D7A}|Default">
   <MonoDevelop.Ide.ItemProperties.DiveLog.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.42CBFEE6-DC17-4C07-A509-B6C5D08D6480" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DiveLog/ViewModels/DivesViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DiveLog/Views/LoginPage.xaml">
     <Files>
-      <File FileName="DiveLog/ViewModels/DivesViewModel.cs" Line="38" Column="43" />
+      <File FileName="DiveLog/Views/LoginPage.xaml" Line="50" Column="66" />
+      <File FileName="DiveLog/ViewModels/LoginViewModel.cs" Line="21" Column="62" />
+      <File FileName="DiveLog/Views/LoginPage.xaml.cs" Line="29" Column="13" />
+      <File FileName="DiveLog/Utility/StaticExtension.cs" Line="18" Column="78" />
+      <File FileName="DiveLog/Views/DivesPage.xaml.cs" Line="24" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.DiveLog.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Nexus_6_API_25" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/Utility/StaticExtension.cs" relfile="DiveLog/Utility/StaticExtension.cs" line="18" column="78" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

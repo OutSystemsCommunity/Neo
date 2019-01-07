@@ -3,8 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="DiveLog.Views.LoginPage"
              xmlns:vm="clr-namespace:DiveLog.ViewModels" 
+             xmlns:v="clr-namespace:DiveLog.Views"
              Title="{Binding Title}" 
-             ><!--BackgroundColor="{Binding BackgroundColor}"-->
+             >
+    <!--
+    BackgroundColor="{x:StaticExtension Member=v:LoginPage.LocalBackgroundColor}"
+    "Extension" suffix and "Member=" prefix are optional; just leaving them here so I can remember where I come from.
+    -->
     <ContentPage.BindingContext>
         <vm:LoginViewModel />
     </ContentPage.BindingContext>
@@ -30,11 +35,20 @@
                                 Text="  Login  " 
                                 Command="{Binding LoginCommand}" 
                                 WidthRequest="300"
-                                HeightRequest="70" />
+                                HeightRequest="70"
+                                BorderWidth="1" 
+                                />
+                        <!--
+                                BackgroundColor="{x:Static v:LoginPage.LocalButtonBackgroundColor}"
+                                TextColor="{x:Static v:LoginPage.LocalButtonTextColor}"
+                        -->
                     </ContentView>
                     <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" >
                         <Switch x:Name="RememberMeSwitch"/><!--TODO Persist this across sessions-->
-                        <Label Text="Remember Me"/>
+                        <Label Text="Remember Me" />
+                <!--
+                TextColor="{x:Static v:LoginPage.LocalTextColor}"
+                -->
                     </StackLayout>
                 </StackLayout>
     </ContentPage.Content>

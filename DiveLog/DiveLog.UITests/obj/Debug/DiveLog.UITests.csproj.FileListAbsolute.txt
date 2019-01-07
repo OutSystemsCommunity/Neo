@@ -13,6 +13,7 @@
 /Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.UITests/bin/Debug/nunit.framework.dll
 /Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.UITests/bin/Debug/nunit.framework.pdb
 /Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.UITests/bin/Debug/Xamarin.UITest.dll
+/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.UITests/obj/Debug/DiveLog.UITests.csprojAssemblyReference.cache
 /Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.UITests/obj/Debug/DiveLog.UITests.csproj.CoreCompileInputs.cache
 /Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.UITests/obj/Debug/DiveLog.UITests.csproj.CopyComplete
 /Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.UITests/obj/Debug/DiveLog.UITests.dll
