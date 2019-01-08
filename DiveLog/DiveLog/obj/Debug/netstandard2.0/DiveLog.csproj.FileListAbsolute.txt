@@ -40,7 +40,6 @@
 /Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog/bin/Debug/netstandard2.0/DiveLog.deps.json
 /Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog/bin/Debug/netstandard2.0/DiveLog.dll
 /Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog/bin/Debug/netstandard2.0/DiveLog.pdb
-/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog/obj/Debug/netstandard2.0/DiveLog.csprojAssemblyReference.cache
 /Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs
 /Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog/obj/Debug/netstandard2.0/Views/DiveDetailPage.xaml.g.cs
@@ -57,3 +56,4 @@
 /Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog/obj/Debug/netstandard2.0/DiveLog.dll
 /Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog/obj/Debug/netstandard2.0/DiveLog.pdb
+/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog/obj/Debug/netstandard2.0/DiveLog.csprojAssemblyReference.cache

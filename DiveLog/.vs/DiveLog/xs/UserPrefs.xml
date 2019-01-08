@@ -1,14 +1,17 @@
-﻿<Properties StartupConfiguration="{C3A75600-B889-4D32-BCD0-38A35D4F1D7A}|Default">
+﻿<Properties StartupConfiguration="{C3A75600-B889-4D32-BCD0-38A35D4F1D7A}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.DiveLog.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A5820C45-2CF5-4BD4-BE97-B61AD6A35393" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DiveLog.iOS/Resources/LaunchScreen.storyboard">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DiveLog/ViewModels/SettingsViewModel.cs">
     <Files>
-      <File FileName="DiveLog/Views/LoginPage.xaml" Line="1" Column="1" />
+      <File FileName="DiveLog/Views/LoginPage.xaml" Line="10" Column="82" />
       <File FileName="DiveLog.iOS/Resources/LaunchScreen.storyboard" />
+      <File FileName="DiveLog/ViewModels/SettingsViewModel.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../DiveLog/ViewModels/SettingsViewModel.cs" line="24" offsetX="329" offsetY="330" expression="IsDark" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
-  <MonoDevelop.Ide.ItemProperties.DiveLog.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MonoDevelop.Ide.ItemProperties.DiveLog.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.192.168.56.101:5555" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
