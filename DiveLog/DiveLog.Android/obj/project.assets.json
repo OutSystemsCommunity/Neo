@@ -313,7 +313,7 @@
           "build/monoandroid81/Xamarin.Android.Support.Vector.Drawable.targets": {}
         }
       },
-      "Xamarin.Forms/3.4.0.1008975": {
+      "Xamarin.Forms/3.4.0.1009999": {
         "type": "package",
         "dependencies": {
           "Xamarin.Android.Support.Design": "27.0.2",
@@ -345,7 +345,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.3.0.967583"
+          "Xamarin.Forms": "3.4.0.1009999"
         },
         "compile": {
           "bin/placeholder/DiveLog.dll": {}
@@ -759,24 +759,24 @@
         "xamarin.android.support.vector.drawable.nuspec"
       ]
     },
-    "Xamarin.Forms/3.4.0.1008975": {
-      "sha512": "036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
+    "Xamarin.Forms/3.4.0.1009999": {
+      "sha512": "pgqRxgD23FJHG2B7zOxf4Fm+KYgoWctUJp8hNtdZgAt43RIiK3VgM11wJf3S0SkMIsXQCUL0yYQmR8gR/njltA==",
       "type": "package",
-      "path": "xamarin.forms/3.4.0.1008975",
+      "path": "xamarin.forms/3.4.0.1009999",
       "files": [
         ".signature.p7s",
         "build/Xamarin.Forms.DefaultItems.props",
         "build/Xamarin.Forms.DefaultItems.targets",
         "build/Xamarin.Forms.props",
         "build/Xamarin.Forms.targets",
-        "build/net461/Mono.Cecil.Mdb.dll",
-        "build/net461/Mono.Cecil.Pdb.dll",
-        "build/net461/Mono.Cecil.Rocks.dll",
-        "build/net461/Mono.Cecil.dll",
-        "build/net461/System.CodeDom.dll",
-        "build/net461/Xamarin.Forms.Build.Tasks.dll",
-        "build/net461/Xamarin.Forms.Core.dll",
-        "build/net461/Xamarin.Forms.Xaml.dll",
+        "build/net46/Mono.Cecil.Mdb.dll",
+        "build/net46/Mono.Cecil.Pdb.dll",
+        "build/net46/Mono.Cecil.Rocks.dll",
+        "build/net46/Mono.Cecil.dll",
+        "build/net46/System.ValueTuple.dll",
+        "build/net46/Xamarin.Forms.Build.Tasks.dll",
+        "build/net46/Xamarin.Forms.Core.dll",
+        "build/net46/Xamarin.Forms.Xaml.dll",
         "build/netstandard2.0/Mono.Cecil.Mdb.dll",
         "build/netstandard2.0/Mono.Cecil.Pdb.dll",
         "build/netstandard2.0/Mono.Cecil.Rocks.dll",
@@ -881,6 +881,7 @@
         "lib/uap10.0/Design/Xamarin.Forms.Core.Design.dll",
         "lib/uap10.0/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/uap10.0/Xamarin.Forms.Core.dll",
+        "lib/uap10.0/Xamarin.Forms.Core.pdb",
         "lib/uap10.0/Xamarin.Forms.Core.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.pri",
@@ -899,8 +900,9 @@
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
+        "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.4.0.1008975.nupkg.sha512",
+        "xamarin.forms.3.4.0.1009999.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -918,36 +920,35 @@
       "Xamarin.Android.Support.v7.AppCompat >= 28.0.0",
       "Xamarin.Android.Support.v7.CardView >= 28.0.0",
       "Xamarin.Android.Support.v7.MediaRouter >= 28.0.0",
-      "Xamarin.Forms >= 3.4.0.1008975"
+      "Xamarin.Forms >= 3.4.0.1009999"
     ]
   },
   "packageFolders": {
-    "/Users/dstrube/.nuget/packages/": {}
+    "/Users/sal/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.Android/DiveLog.Android.csproj",
+      "projectUniqueName": "/Users/sal/Documents/GitHub/DiveLog/DiveLog/DiveLog.Android/DiveLog.Android.csproj",
       "projectName": "DiveLog.Android",
-      "projectPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.Android/DiveLog.Android.csproj",
-      "packagesPath": "/Users/dstrube/.nuget/packages/",
-      "outputPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.Android/obj",
+      "projectPath": "/Users/sal/Documents/GitHub/DiveLog/DiveLog/DiveLog.Android/DiveLog.Android.csproj",
+      "packagesPath": "/Users/sal/.nuget/packages/",
+      "outputPath": "/Users/sal/Documents/GitHub/DiveLog/DiveLog/DiveLog.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/dstrube/.config/NuGet/NuGet.Config"
+        "/Users/sal/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
       ],
       "sources": {
-        "http://nuget.grapecity.com/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/DiveLog.csproj": {
-              "projectPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog/DiveLog.csproj"
+            "/Users/sal/Documents/GitHub/DiveLog/DiveLog/DiveLog/DiveLog.csproj": {
+              "projectPath": "/Users/sal/Documents/GitHub/DiveLog/DiveLog/DiveLog/DiveLog.csproj"
             }
           }
         }
@@ -978,7 +979,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.4.0.1008975, )"
+            "version": "[3.4.0.1009999, )"
           }
         }
       }
