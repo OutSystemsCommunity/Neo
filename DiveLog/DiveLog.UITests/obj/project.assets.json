@@ -154,19 +154,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/sal/.nuget/packages/": {}
+    "/Users/ashleyp/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sal/Documents/GitHub/DiveLog/DiveLog/DiveLog.UITests/DiveLog.UITests.csproj",
+      "projectUniqueName": "/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog.UITests/DiveLog.UITests.csproj",
       "projectName": "DiveLog.UITests",
-      "projectPath": "/Users/sal/Documents/GitHub/DiveLog/DiveLog/DiveLog.UITests/DiveLog.UITests.csproj",
-      "packagesPath": "/Users/sal/.nuget/packages/",
-      "outputPath": "/Users/sal/Documents/GitHub/DiveLog/DiveLog/DiveLog.UITests/obj",
+      "projectPath": "/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog.UITests/DiveLog.UITests.csproj",
+      "packagesPath": "/Users/ashleyp/.nuget/packages/",
+      "outputPath": "/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog.UITests/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/sal/.config/NuGet/NuGet.Config"
+        "/Users/ashleyp/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net461"
