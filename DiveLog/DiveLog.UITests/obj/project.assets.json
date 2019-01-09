@@ -154,24 +154,25 @@
     ]
   },
   "packageFolders": {
-    "/Users/ashleyp/.nuget/packages/": {}
+    "/Users/dstrube/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog.UITests/DiveLog.UITests.csproj",
+      "projectUniqueName": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.UITests/DiveLog.UITests.csproj",
       "projectName": "DiveLog.UITests",
-      "projectPath": "/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog.UITests/DiveLog.UITests.csproj",
-      "packagesPath": "/Users/ashleyp/.nuget/packages/",
-      "outputPath": "/Users/ashleyp/Documents/projects/divelogs/DiveLog/DiveLog/DiveLog.UITests/obj",
+      "projectPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.UITests/DiveLog.UITests.csproj",
+      "packagesPath": "/Users/dstrube/.nuget/packages/",
+      "outputPath": "/Users/dstrube/Projects/gaq/githubForNonprofits/DiveLog/DiveLog.UITests/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ashleyp/.config/NuGet/NuGet.Config"
+        "/Users/dstrube/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net461"
       ],
       "sources": {
+        "http://nuget.grapecity.com/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

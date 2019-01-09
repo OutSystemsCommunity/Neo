@@ -1,10 +1,8 @@
 ﻿<Properties StartupConfiguration="{C3A75600-B889-4D32-BCD0-38A35D4F1D7A}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.ItemProperties.DiveLog.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A5820C45-2CF5-4BD4-BE97-B61AD6A35393" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DiveLog/ViewModels/SettingsViewModel.cs">
+  <MonoDevelop.Ide.ItemProperties.DiveLog.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.42CBFEE6-DC17-4C07-A509-B6C5D08D6480" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DiveLog.iOS/Info.plist">
     <Files>
-      <File FileName="DiveLog/Views/LoginPage.xaml" Line="10" Column="82" />
-      <File FileName="DiveLog.iOS/Resources/LaunchScreen.storyboard" />
-      <File FileName="DiveLog/ViewModels/SettingsViewModel.cs" Line="1" Column="1" />
+      <File FileName="DiveLog.iOS/Info.plist" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
