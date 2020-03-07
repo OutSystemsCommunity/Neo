@@ -2,9 +2,14 @@
 
 Welcome to the **Amazing** world of NEO!  Here are just a few of the approved designs.  We ecnourage you to submit more here and maybe your design could be showcased **NEXT!
 
-### Markdown
+### Now for the Images
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<object data="https://github.com/OutSystemsCommunity/Neo/blob/master/stickers-neo-sports-final-soccer.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/OutSystemsCommunity/Neo/blob/master/stickers-neo-sports-final-soccer.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/OutSystemsCommunity/Neo/blob/master/stickers-neo-sports-final-soccer.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
 
 ![soccer neo] (https://github.com/OutSystemsCommunity/Neo/blob/master/stickers-neo-sports-final-soccer.pdf)
 ![football neo] (https://github.com/OutSystemsCommunity/Neo/blob/master/stickers-neo-sports-final-football.pdf)
