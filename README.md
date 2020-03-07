@@ -5,15 +5,12 @@ Welcome to the **Amazing** world of NEO!  Here are just a few of the approved de
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-![soccer]
-![football]
 
-```LOGOS HERE
-[soccer]: https://github.com/OutSystemsCommunity/Neo/blob/master/stickers-neo-sports-final-soccer.pdf
-[football]: https://github.com/OutSystemsCommunity/Neo/blob/master/stickers-neo-sports-final-football.pdf
-[cricket]: https://github.com/OutSystemsCommunity/Neo/blob/master/stickers-neo-sports-final-cricket.pdf
-[baseball]: https://github.com/OutSystemsCommunity/Neo/blob/master/stickers-neo-sports-final-baseball.pdf
-[basketball]: https://github.com/OutSystemsCommunity/Neo/blob/master/stickers-neo-sports-final-basketball.pdf
+![soccer neo] (https://github.com/OutSystemsCommunity/Neo/blob/master/stickers-neo-sports-final-soccer.pdf)
+![football neo] (https://github.com/OutSystemsCommunity/Neo/blob/master/stickers-neo-sports-final-football.pdf)
+![cricket neo] (https://github.com/OutSystemsCommunity/Neo/blob/master/stickers-neo-sports-final-cricket.pdf)
+![baseball neo] (https://github.com/OutSystemsCommunity/Neo/blob/master/stickers-neo-sports-final-baseball.pdf)
+![basketball neo] (https://github.com/OutSystemsCommunity/Neo/blob/master/stickers-neo-sports-final-basketball.pdf)
 
 
 [Link](url) and ![Image](src)
